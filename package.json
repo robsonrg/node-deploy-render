@@ -1,0 +1,29 @@
+{
+  "name": "deploy-render",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engine": {
+    "node": "18"
+  },
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsup src",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.2",
+    "prisma": "^4.11.0",
+    "tsup": "^6.6.3",
+    "tsx": "^3.12.5",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.11.0",
+    "fastify": "^4.14.1",
+    "zod": "^3.21.4"
+  }
+}
